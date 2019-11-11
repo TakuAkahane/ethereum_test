@@ -630,3 +630,19 @@ WARN [11-12|08:58:55.648] Dropping unsynced node during fast sync  id=cafd8bc62e
 DEBUG[11-12|08:58:55.648] Ethereum message handling failed         id=cafd8bc62e8338a6 conn=inbound err="unsynced node cannot serve fast sync"
 DEBUG[11-12|08:58:55.648] Removing Ethereum peer                   peer=cafd8bc62e8338a6
 DEBUG[11-12|08:58:55.648] Removing p2p peer                        id=cafd8bc62e8338a6 conn=inbound addr=192.168.100.105:49714 peers=0 duration=1.492ms req=false err="useless peer"
+DEBUG[11-12|08:59:02.722] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|08:59:02.723] Revalidated node                         b=12 id=fc2c817ca886a995 checks=1
+DEBUG[11-12|08:59:04.913] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:04.913] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
+DEBUG[11-12|08:59:08.936] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:08.937] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
+DEBUG[11-12|08:59:15.010] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[11-12|08:59:18.517] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:18.517] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
+DEBUG[11-12|08:59:19.765] Adding p2p peer                          id=cafd8bc62e8338a6 conn=dyndial addr=192.168.100.105:30323 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|08:59:19.765] Ethereum peer connected                  id=cafd8bc62e8338a6 conn=dyndial name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:59:19.766] Fetching batch of headers                id=cafd8bc62e8338a6 conn=dyndial count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|08:59:19.766] Dropping unsynced node during fast sync  id=cafd8bc62e8338a6 conn=dyndial addr=192.168.100.105:30323 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:59:19.766] Ethereum message handling failed         id=cafd8bc62e8338a6 conn=dyndial err="unsynced node cannot serve fast sync"
+DEBUG[11-12|08:59:19.766] Removing Ethereum peer                   peer=cafd8bc62e8338a6
+DEBUG[11-12|08:59:19.767] Removing p2p peer                        id=cafd8bc62e8338a6 conn=dyndial addr=192.168.100.105:30323 peers=0 duration=1.897ms req=false err="useless peer"
