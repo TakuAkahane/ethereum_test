@@ -2843,3 +2843,45 @@ TRACE[11-12|08:59:22.360] << PING/v4                               id=cafd8bc62e
 TRACE[11-12|08:59:22.361] >> PONG/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
 TRACE[11-12|08:59:22.362] << ENRREQUEST/v4                         id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
 TRACE[11-12|08:59:22.362] >> ENRRESPONSE/v4                        id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:23.156] << FINDNODE/v4                           id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:23.156] >> NEIGHBORS/v4                          id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:23.254] << FINDNODE/v4                           id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:23.254] >> NEIGHBORS/v4                          id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:23.441] >> PING/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:23.442] << PONG/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:23.442] >> ENRREQUEST/v4                         id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:23.443] << ENRRESPONSE/v4                        id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+DEBUG[11-12|08:59:23.444] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:23.444] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
+TRACE[11-12|08:59:27.157] << FINDNODE/v4                           id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:27.158] >> NEIGHBORS/v4                          id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:27.256] << FINDNODE/v4                           id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:27.257] >> NEIGHBORS/v4                          id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:30.658] << PING/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:30.658] >> PONG/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:30.659] << ENRREQUEST/v4                         id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:30.659] >> ENRRESPONSE/v4                        id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:31.162] << FINDNODE/v4                           id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:31.163] >> NEIGHBORS/v4                          id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:31.241] << PING/v4                               id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:31.241] >> PONG/v4                               id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:31.243] << ENRREQUEST/v4                         id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:31.243] >> ENRRESPONSE/v4                        id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:31.259] << FINDNODE/v4                           id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:31.260] >> NEIGHBORS/v4                          id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:32.975] >> PING/v4                               id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:32.977] << PONG/v4                               id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:32.977] >> ENRREQUEST/v4                         id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:32.978] << ENRRESPONSE/v4                        id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+DEBUG[11-12|08:59:32.979] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:32.979] Revalidated node                         b=12 id=f19727627609b02a checks=1
+TRACE[11-12|08:59:35.168] << FINDNODE/v4                           id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:35.169] >> NEIGHBORS/v4                          id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:35.260] << FINDNODE/v4                           id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:35.260] >> NEIGHBORS/v4                          id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:59:37.230] >> PING/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:37.232] << PONG/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:37.232] >> ENRREQUEST/v4                         id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:59:37.233] << ENRRESPONSE/v4                        id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+DEBUG[11-12|08:59:37.234] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:37.234] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
