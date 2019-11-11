@@ -2757,3 +2757,23 @@ TRACE[11-12|08:58:54.111] >> ENRREQUEST/v4                         id=cafd8bc62e
 TRACE[11-12|08:58:54.113] << ENRRESPONSE/v4                        id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
 DEBUG[11-12|08:58:54.115] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
 DEBUG[11-12|08:58:54.115] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=2
+TRACE[11-12|08:58:55.144] << FINDNODE/v4                           id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:55.144] >> NEIGHBORS/v4                          id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:55.244] << FINDNODE/v4                           id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:58:55.245] >> NEIGHBORS/v4                          id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:58:56.870] >> PING/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:56.872] << PONG/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:56.872] >> ENRREQUEST/v4                         id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:56.873] << ENRRESPONSE/v4                        id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+DEBUG[11-12|08:58:56.874] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:58:56.874] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=3
+TRACE[11-12|08:58:59.147] << FINDNODE/v4                           id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:59.147] >> NEIGHBORS/v4                          id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:59.244] << FINDNODE/v4                           id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:58:59.244] >> NEIGHBORS/v4                          id=f19727627609b02a addr=192.168.100.105:30333 err=nil
+TRACE[11-12|08:58:59.954] >> PING/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:59.955] << PONG/v4                               id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:59.956] >> ENRREQUEST/v4                         id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+TRACE[11-12|08:58:59.958] << ENRRESPONSE/v4                        id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err=nil
+DEBUG[11-12|08:58:59.958] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:58:59.958] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=4

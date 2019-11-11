@@ -735,3 +735,12 @@ DEBUG[11-12|08:58:50.861] ENR request failed                       id=fc2c817ca8
 DEBUG[11-12|08:58:50.861] Revalidated node                         b=14 id=fc2c817ca886a995 checks=1
 DEBUG[11-12|08:58:51.574] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
 DEBUG[11-12|08:58:51.574] Revalidated node                         b=14 id=f19727627609b02a checks=1
+DEBUG[11-12|08:58:55.647] Adding p2p peer                          id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|08:58:55.647] Ethereum peer connected                  id=f19727627609b02a conn=dyndial name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:58:55.647] Fetching batch of headers                id=f19727627609b02a conn=dyndial count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|08:58:55.648] Dropping unsynced node during fast sync  id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:58:55.648] Ethereum message handling failed         id=f19727627609b02a conn=dyndial err="unsynced node cannot serve fast sync"
+DEBUG[11-12|08:58:55.648] Removing Ethereum peer                   peer=f19727627609b02a
+DEBUG[11-12|08:58:55.648] Removing p2p peer                        id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 peers=0 duration=1.629ms req=false err="useless peer"
+DEBUG[11-12|08:59:00.995] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:00.995] Revalidated node                         b=14 id=f19727627609b02a checks=1

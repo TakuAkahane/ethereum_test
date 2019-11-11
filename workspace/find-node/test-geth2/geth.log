@@ -622,3 +622,11 @@ DEBUG[11-12|08:58:45.471] Revalidated node                         b=14 id=cafd8
 DEBUG[11-12|08:58:53.395] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
 DEBUG[11-12|08:58:53.395] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
 DEBUG[11-12|08:58:54.916] Current full block not old enough        number=0 hash=d4e567…cb8fa3 delay=90000
+DEBUG[11-12|08:58:55.008] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[11-12|08:58:55.647] Adding p2p peer                          id=cafd8bc62e8338a6 conn=inbound addr=192.168.100.105:49714 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|08:58:55.647] Ethereum peer connected                  id=cafd8bc62e8338a6 conn=inbound name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:58:55.647] Fetching batch of headers                id=cafd8bc62e8338a6 conn=inbound count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|08:58:55.648] Dropping unsynced node during fast sync  id=cafd8bc62e8338a6 conn=inbound addr=192.168.100.105:49714 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:58:55.648] Ethereum message handling failed         id=cafd8bc62e8338a6 conn=inbound err="unsynced node cannot serve fast sync"
+DEBUG[11-12|08:58:55.648] Removing Ethereum peer                   peer=cafd8bc62e8338a6
+DEBUG[11-12|08:58:55.648] Removing p2p peer                        id=cafd8bc62e8338a6 conn=inbound addr=192.168.100.105:49714 peers=0 duration=1.492ms req=false err="useless peer"
