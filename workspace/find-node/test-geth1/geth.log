@@ -805,3 +805,26 @@ DEBUG[11-12|09:00:13.635] ENR request failed                       id=f197276276
 DEBUG[11-12|09:00:13.635] Revalidated node                         b=14 id=f19727627609b02a checks=1
 DEBUG[11-12|09:00:15.776] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
 DEBUG[11-12|09:00:15.778] Revalidated node                         b=14 id=fc2c817ca886a995 checks=1
+DEBUG[11-12|09:00:22.388] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[11-12|09:00:23.813] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|09:00:23.813] Revalidated node                         b=14 id=fc2c817ca886a995 checks=2
+DEBUG[11-12|09:00:31.462] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|09:00:31.462] Revalidated node                         b=14 id=f19727627609b02a checks=1
+DEBUG[11-12|09:00:31.799] Adding p2p peer                          id=f19727627609b02a conn=inbound addr=192.168.100.105:49742 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|09:00:31.799] Ethereum peer connected                  id=f19727627609b02a conn=inbound name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|09:00:31.800] Fetching batch of headers                id=f19727627609b02a conn=inbound count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|09:00:31.800] Dropping unsynced node during fast sync  id=f19727627609b02a conn=inbound addr=192.168.100.105:49742 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|09:00:31.800] Ethereum message handling failed         id=f19727627609b02a conn=inbound err="unsynced node cannot serve fast sync"
+DEBUG[11-12|09:00:31.800] Removing Ethereum peer                   peer=f19727627609b02a
+DEBUG[11-12|09:00:31.800] Removing p2p peer                        id=f19727627609b02a conn=inbound addr=192.168.100.105:49742 peers=0 duration=1.462ms req=false err="useless peer"
+INFO [11-12|09:00:35.877] IPC endpoint closed                      url=/Users/akabanetaku/private-net/workspace/find-node/test-geth1/geth.ipc
+DEBUG[11-12|09:00:35.877] RPC server shutting down 
+INFO [11-12|09:00:35.877] Blockchain manager stopped 
+INFO [11-12|09:00:35.877] Stopping Ethereum protocol 
+INFO [11-12|09:00:35.877] Ethereum protocol stopped 
+INFO [11-12|09:00:35.877] Transaction pool stopped 
+DEBUG[11-12|09:00:35.877] Reset ancient limit to zero 
+DEBUG[11-12|09:00:35.879] Read error                               err="accept tcp [::]:30323: use of closed network connection"
+DEBUG[11-12|09:00:35.879] Deleting port mapping                    proto=udp extport=30323 intport=30323 interface="UPnP or NAT-PMP"
+DEBUG[11-12|09:00:35.879] Deleting port mapping                    proto=tcp extport=30323 intport=30323 interface="UPnP or NAT-PMP"
+DEBUG[11-12|09:00:35.879] UDP read error                           err="read udp [::]:30323: use of closed network connection"

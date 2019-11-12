@@ -693,3 +693,32 @@ DEBUG[11-12|09:00:10.216] Revalidated node                         b=14 id=cafd8
 DEBUG[11-12|09:00:15.022] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
 DEBUG[11-12|09:00:16.347] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
 DEBUG[11-12|09:00:16.348] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
+DEBUG[11-12|09:00:19.392] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|09:00:19.392] Revalidated node                         b=12 id=fc2c817ca886a995 checks=1
+DEBUG[11-12|09:00:22.303] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|09:00:22.303] Revalidated node                         b=12 id=fc2c817ca886a995 checks=1
+DEBUG[11-12|09:00:26.655] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|09:00:26.655] Revalidated node                         b=12 id=fc2c817ca886a995 checks=2
+DEBUG[11-12|09:00:28.634] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|09:00:28.635] Revalidated node                         b=12 id=fc2c817ca886a995 checks=3
+DEBUG[11-12|09:00:31.799] Adding p2p peer                          id=cafd8bc62e8338a6 conn=dyndial addr=192.168.100.105:30323 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|09:00:31.799] Ethereum peer connected                  id=cafd8bc62e8338a6 conn=dyndial name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|09:00:31.800] Fetching batch of headers                id=cafd8bc62e8338a6 conn=dyndial count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|09:00:31.800] Dropping unsynced node during fast sync  id=cafd8bc62e8338a6 conn=dyndial addr=192.168.100.105:30323 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|09:00:31.800] Ethereum message handling failed         id=cafd8bc62e8338a6 conn=dyndial err="unsynced node cannot serve fast sync"
+DEBUG[11-12|09:00:31.800] Removing Ethereum peer                   peer=cafd8bc62e8338a6
+DEBUG[11-12|09:00:31.801] Removing p2p peer                        id=cafd8bc62e8338a6 conn=dyndial addr=192.168.100.105:30323 peers=0 duration=1.602ms req=false err="useless peer"
+DEBUG[11-12|09:00:35.023] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[11-12|09:00:35.470] ENR request failed                       id=cafd8bc62e8338a6 addr=192.168.100.105:30323 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|09:00:35.470] Revalidated node                         b=14 id=cafd8bc62e8338a6 checks=1
+INFO [11-12|09:00:37.081] IPC endpoint closed                      url=/Users/akabanetaku/private-net/workspace/find-node/test-geth2/geth.ipc
+DEBUG[11-12|09:00:37.081] RPC server shutting down 
+INFO [11-12|09:00:37.081] Blockchain manager stopped 
+INFO [11-12|09:00:37.081] Stopping Ethereum protocol 
+INFO [11-12|09:00:37.081] Ethereum protocol stopped 
+DEBUG[11-12|09:00:37.081] Reset ancient limit to zero 
+INFO [11-12|09:00:37.081] Transaction pool stopped 
+DEBUG[11-12|09:00:37.082] Read error                               err="accept tcp [::]:30333: use of closed network connection"
+DEBUG[11-12|09:00:37.082] Deleting port mapping                    proto=tcp extport=30333 intport=30333 interface="UPnP or NAT-PMP"
+DEBUG[11-12|09:00:37.082] Deleting port mapping                    proto=udp extport=30333 intport=30333 interface="UPnP or NAT-PMP"
+DEBUG[11-12|09:00:37.082] UDP read error                           err="read udp [::]:30333: use of closed network connection"
