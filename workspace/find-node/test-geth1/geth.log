@@ -763,3 +763,45 @@ DEBUG[11-12|08:59:19.767] Removing p2p peer                        id=f197276276
 DEBUG[11-12|08:59:22.364] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
 DEBUG[11-12|08:59:22.364] Revalidated node                         b=14 id=fc2c817ca886a995 checks=3
 DEBUG[11-12|08:59:22.373] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[11-12|08:59:30.660] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|08:59:30.660] Revalidated node                         b=14 id=fc2c817ca886a995 checks=1
+DEBUG[11-12|08:59:31.672] Adding p2p peer                          id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|08:59:31.673] Ethereum peer connected                  id=f19727627609b02a conn=dyndial name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:59:31.673] Fetching batch of headers                id=f19727627609b02a conn=dyndial count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|08:59:31.674] Dropping unsynced node during fast sync  id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:59:31.674] Ethereum message handling failed         id=f19727627609b02a conn=dyndial err="unsynced node cannot serve fast sync"
+DEBUG[11-12|08:59:31.674] Removing Ethereum peer                   peer=f19727627609b02a
+DEBUG[11-12|08:59:31.674] Removing p2p peer                        id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 peers=0 duration=1.555ms req=false err="useless peer"
+DEBUG[11-12|08:59:37.506] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:37.506] Revalidated node                         b=14 id=f19727627609b02a checks=1
+DEBUG[11-12|08:59:41.950] Current full block not old enough        number=0 hash=d4e567…cb8fa3 delay=90000
+DEBUG[11-12|08:59:42.379] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[11-12|08:59:47.423] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|08:59:47.423] Revalidated node                         b=14 id=fc2c817ca886a995 checks=1
+DEBUG[11-12|08:59:50.836] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|08:59:50.836] Revalidated node                         b=14 id=f19727627609b02a checks=1
+DEBUG[11-12|08:59:52.261] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|08:59:52.261] Revalidated node                         b=14 id=fc2c817ca886a995 checks=2
+DEBUG[11-12|08:59:55.775] Adding p2p peer                          id=f19727627609b02a conn=inbound addr=192.168.100.105:49736 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|08:59:55.776] Ethereum peer connected                  id=f19727627609b02a conn=inbound name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:59:55.776] Fetching batch of headers                id=f19727627609b02a conn=inbound count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|08:59:55.777] Dropping unsynced node during fast sync  id=f19727627609b02a conn=inbound addr=192.168.100.105:49736 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|08:59:55.777] Ethereum message handling failed         id=f19727627609b02a conn=inbound err="unsynced node cannot serve fast sync"
+DEBUG[11-12|08:59:55.777] Removing Ethereum peer                   peer=f19727627609b02a
+DEBUG[11-12|08:59:55.777] Removing p2p peer                        id=f19727627609b02a conn=inbound addr=192.168.100.105:49736 peers=0 duration=1.356ms req=false err="useless peer"
+DEBUG[11-12|09:00:02.164] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|09:00:02.164] Revalidated node                         b=14 id=f19727627609b02a checks=2
+DEBUG[11-12|09:00:02.385] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+DEBUG[11-12|09:00:07.694] Adding p2p peer                          id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 peers=1 name=Geth/v1.9.6-stable/d...
+DEBUG[11-12|09:00:07.695] Ethereum peer connected                  id=f19727627609b02a conn=dyndial name=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|09:00:07.697] Fetching batch of headers                id=f19727627609b02a conn=dyndial count=1 fromnum=8552447 skip=0 reverse=false
+WARN [11-12|09:00:07.697] Dropping unsynced node during fast sync  id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 type=Geth/v1.9.6-stable/darwin-amd64/go1.13.1
+DEBUG[11-12|09:00:07.698] Ethereum message handling failed         id=f19727627609b02a conn=dyndial err="unsynced node cannot serve fast sync"
+DEBUG[11-12|09:00:07.698] Removing Ethereum peer                   peer=f19727627609b02a
+DEBUG[11-12|09:00:07.698] Removing p2p peer                        id=f19727627609b02a conn=dyndial addr=192.168.100.105:30333 peers=0 duration=3.251ms req=false err="useless peer"
+DEBUG[11-12|09:00:11.048] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|09:00:11.049] Revalidated node                         b=14 id=fc2c817ca886a995 checks=1
+DEBUG[11-12|09:00:13.635] ENR request failed                       id=f19727627609b02a addr=192.168.100.105:30333 err="invalid IP in response record: loopback address from non-loopback host"
+DEBUG[11-12|09:00:13.635] Revalidated node                         b=14 id=f19727627609b02a checks=1
+DEBUG[11-12|09:00:15.776] ENR request failed                       id=fc2c817ca886a995 addr=192.168.100.105:30301 err="invalid IP in response record: invalid IP"
+DEBUG[11-12|09:00:15.778] Revalidated node                         b=14 id=fc2c817ca886a995 checks=1
