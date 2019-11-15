@@ -1,1 +1,3 @@
 /password
+geth/*
+workspace/test_truffle/node_modules/openzeppelin-solidity/*
