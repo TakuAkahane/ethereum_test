@@ -108,3 +108,16 @@
 09:16:06.125899 table@remove removed @14
 09:30:18.302935 db@close closing
 09:30:18.303357 db@close done T·420.939µs
+=============== Nov 16, 2019 (JST) ===============
+13:37:18.549171 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:37:18.551063 version@stat F·[0 1] S·19KiB[0B 19KiB] Sc·[0.00 0.00]
+13:37:18.551197 db@open opening
+13:37:18.551410 journal@recovery F·1
+13:37:18.567426 journal@recovery recovering @25
+13:37:18.594890 memdb@flush created L0@28 N·2969 S·152KiB "\x1d\xa7\xb1..\xa6\x1d&,v3476":"ҝ\x16..?/e,v3471"
+13:37:18.600648 version@stat F·[1 1] S·171KiB[152KiB 19KiB] Sc·[0.25 0.00]
+13:37:18.624802 db@janitor F·5 G·1
+13:37:18.624855 db@janitor removing table-24
+13:37:18.625165 db@open done T·73.927927ms
+14:01:39.411927 db@close closing
+14:01:39.418610 db@close done T·6.678952ms

@@ -1,7 +1,6 @@
 pragma solidity ^0.4.24;
 
-import "zeppelin-solidity/contracts/lifecycle/Pausable.sol";
-import "zeppelin-solidity/contracts/lifecycle/Destructible.sol";
+import "../node_modules/openzeppelin-solidity/contracts/lifecycle/Pausable.sol";
 import "./Activatable.sol";
 
 contract Room is Ownable {
